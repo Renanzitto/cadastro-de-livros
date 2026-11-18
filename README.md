@@ -43,5 +43,3 @@ Abra o seu terminal e clone o projeto (ou navegue até a pasta onde ele está sa
 ```bash
 
 Desenvolvido por Caio Renan Silva dos Santos como parte de projetos práticos de aprendizado Full Stack.
-git clone <url-do-seu-repositorio>
-cd <nome-da-pasta-do-projeto>
