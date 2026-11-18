@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>📚 Biblioteca Digital</h1>
+        <p>Seu espaço para organizar seus livros.</p>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Cadastrar novo livro</h2>
+
+            <form id="formLivro">
+                <div class="campo">
+                    <label for="titulo">Título do livro</label>
+                    <input type="text" id="titulo" name="titulo"
+                           placeholder="Ex.: Dom Casmurro" required>
+                </div>
+
+                <div class="campo">
+                    <label for="autor">Nome do autor</label>
+                    <input type="text" id="autor" name="autor"
+                           placeholder="Ex.: Machado de Assis" required>
+                </div>
+
+                <div class="campo">
+                    <label for="ano">Ano de publicação</label>
+                    <input type="number" id="ano" name="ano"
+                           placeholder="Ex.: 1899" min="1" max="2100" required>
+                </div>
+
+                <button type="submit">Cadastrar livro</button>
+                <p id="mensagem" class="mensagem" role="status"></p>
+            </form>
+        </section>
+
+        <section class="card">
+            <h2>Meus livros</h2>
+            <div id="listaLivros" class="lista-livros">
+                <p class="lista-vazia">Nenhum livro cadastrado ainda.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Biblioteca Digital | Projeto de aprendizagem Full Stack</p>
+    </footer>
+</body>
+</html>
