@@ -25,6 +25,15 @@ Certifique-se de ter instalado em sua máquina:
 
 ---
 
+📌 Funcionalidades
+Cadastro de Livros: Insira o título, autor e ano de publicação de um livro através do formulário web.
+
+Listagem Dinâmica: Os livros cadastrados são salvos no banco de dados SQLite e exibidos automaticamente na tela.
+
+Exclusão de Registros: Cada livro listado possui um botão de exclusão que remove o item instantaneamente do banco de dados e atualiza a interface.
+
+---
+
 ## 🛠️ Como Clonar e Executar o Projeto Localmente
 
 Siga os passos abaixo para configurar e rodar o projeto na sua máquina para fins de teste:
@@ -32,5 +41,7 @@ Siga os passos abaixo para configurar e rodar o projeto na sua máquina para fin
 ### 1. Clonar o Repositório
 Abra o seu terminal e clone o projeto (ou navegue até a pasta onde ele está salvo):
 ```bash
+
+Desenvolvido por Caio Renan Silva dos Santos como parte de projetos práticos de aprendizado Full Stack.
 git clone <url-do-seu-repositorio>
 cd <nome-da-pasta-do-projeto>
